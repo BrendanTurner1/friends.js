@@ -6,3 +6,8 @@ for(i = 0; i < number.length; i++) {
     }
 }
 
+for(i = 0; i < number.length; i++) {
+    if (number[i] < 60) {
+        console.log(number[i]);
+    }
+}
